@@ -1,0 +1,237 @@
+&lt;?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
+    
+    <lastmod>2025-05-29T13:44:15+10:00</lastmod>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/reviews/</loc>
+    
+    <lastmod>2025-05-29T13:44:15+10:00</lastmod>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    
+    <lastmod>2025-05-29T13:44:14+10:00</lastmod>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/history/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/press/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/privacy/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/disclosure-2020/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/disclosure-2021/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/disclosure-2022/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/disclosure-2023/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/disclosure-2024/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/services/</loc>
+    
+    
+    <changefreq>monthly</changefreq>
+    
+    
+    <priority>0.5</priority>
+    
+    
+    
+    
+    
+  </url>
+  
+</urlset> 
