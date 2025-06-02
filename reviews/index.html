@@ -4,7 +4,7 @@
     
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reviews | Восток-Аудит</title>
+<title>Отзывы | Восток-Аудит</title>
 <meta name="description" content="">
 <meta name="keywords" content="аудит, бухгалтерские услуги, консалтинг, Хабаровск">
 <meta name="author" content="Восток-Аудит">
@@ -16,9 +16,28 @@
 <meta name="robots" content="index, follow">
 
 
+<script>
+  
+  (function() {
+    var savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+<style>
+  html.theme-transition,
+  html.theme-transition *,
+  html.theme-transition *:before,
+  html.theme-transition *:after {
+    transition: all 0s !important;
+  }
+</style>
+
+
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://localhost:1313/reviews/">
-<meta property="og:title" content="Reviews | Восток-Аудит">
+<meta property="og:title" content="Отзывы | Восток-Аудит">
 <meta property="og:description" content="">
 <meta property="og:image" content="http://localhost:1313/images/logo.png">
 <meta property="og:locale" content="ru_RU">
@@ -26,7 +45,7 @@
 
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Reviews | Восток-Аудит">
+<meta name="twitter:title" content="Отзывы | Восток-Аудит">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="http://localhost:1313/images/logo.png">
 
@@ -115,59 +134,21 @@
 
     <main id="main-content" role="main">
         
-
-
-
-<nav class="breadcrumbs" aria-label="Хлебные крошки">
-    <div class="container">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="http://localhost:1313/">
-                    <span itemprop="name">Главная</span>
-                </a>
-                <meta itemprop="position" content="1" />
-            </li>
-            
-            
-                
-                
-                    
-                        
-                        
-                        
-                        
-                        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                            
-                                <a itemprop="item" href="http://localhost:1313/reviews/">
-                                    <span itemprop="name">C:/Users/Vital/Quickstart/Content/Reviews.md</span>
-                                </a>
-                            
-                            <meta itemprop="position" content="2" />
-                        </li>
-                    
-                
-                    
-                
-            
-        </ol>
-    </div>
-</nav> 
-
 <section class="page-header">
     <div class="container">
-        <h1>Reviews</h1>
+        <h1>Отзывы</h1>
         <p></p>
     </div>
 </section>
 
 <article class="page-content" itemscope itemtype="https://schema.org/Article">
     <div class="container">
-        <meta itemprop="headline" content="Reviews">
+        <meta itemprop="headline" content="Отзывы">
         <meta itemprop="description" content="">
         <meta itemprop="author" content="Восток-Аудит">
-        <meta itemprop="datePublished" content="2025-05-29T13:44:15&#43;10:00">
+        <meta itemprop="datePublished" content="2023-05-29T13:44:15&#43;10:00">
         
-        <meta itemprop="dateModified" content="2025-05-29T13:44:15&#43;10:00">
+        <meta itemprop="dateModified" content="2023-05-29T13:44:15&#43;10:00">
         
         
         <div class="content-wrapper" itemprop="articleBody">
@@ -195,8 +176,13 @@
                     <a href="tel:+74212773498" itemprop="telephone">&#43;7 (4212) 77-34-98</a>
                     <a href="mailto:vostok-audit@bk.ru" itemprop="email">vostok-audit@bk.ru</a>
                 </div>
+                <div class="footer-map">
+                    <div id="yandex-map" style="width:100%; height:300px;"></div>
+                </div>
                 <div class="footer-nav">
-                    <a href="/privacy">Политика конфиденциальности</a>
+                    <div class="footer-links">
+                        <a href="/privacy">Политика конфиденциальности</a>
+                    </div>
                     <p>&copy; 2025 ООО "Восток-Аудит". Все права защищены.</p>
                 </div>
             </div>
@@ -204,8 +190,29 @@
     </footer>
 
     
-    <script src="/js/main.min.44fb55b25581ec9f69f33a716b6dc1ed845585cb0086772fb71824250a75eb35.js" defer></script>
+    <script src="/js/main.min.13e24a77344cab86eb39c1d1f27032f01feee3a6616bb2fb90461913ce563b82.js" defer></script>
     
     <script src="/js/header-scroll.min.6f3abe05cf77e58112c8ed9964ddc64397baa001d437b4e6c960e49f5a441806.js" defer></script>
+    
+    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_API_ключ&lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            ymaps.ready(function() {
+                var myMap = new ymaps.Map('yandex-map', {
+                    center: [48.477153, 135.068872], 
+                    zoom: 17
+                });
+                
+                var myPlacemark = new ymaps.Placemark([48.477153, 135.068872], {
+                    hintContent: 'ООО "Восток-Аудит"',
+                    balloonContent: 'г. Хабаровск, ул. Волочаевская, 153, оф. 2-А'
+                });
+                
+                myMap.geoObjects.add(myPlacemark);
+                myMap.behaviors.disable('scrollZoom');
+            });
+        });
+    </script>
 </body>
 </html> 

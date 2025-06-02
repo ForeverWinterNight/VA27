@@ -16,6 +16,25 @@
 <meta name="robots" content="index, follow">
 
 
+<script>
+  
+  (function() {
+    var savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+<style>
+  html.theme-transition,
+  html.theme-transition *,
+  html.theme-transition *:before,
+  html.theme-transition *:after {
+    transition: all 0s !important;
+  }
+</style>
+
+
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://localhost:1313/press/">
 <meta property="og:title" content="О нас в прессе | Восток-Аудит">
@@ -306,8 +325,13 @@
                     <a href="tel:+74212773498" itemprop="telephone">&#43;7 (4212) 77-34-98</a>
                     <a href="mailto:vostok-audit@bk.ru" itemprop="email">vostok-audit@bk.ru</a>
                 </div>
+                <div class="footer-map">
+                    <div id="yandex-map" style="width:100%; height:300px;"></div>
+                </div>
                 <div class="footer-nav">
-                    <a href="/privacy">Политика конфиденциальности</a>
+                    <div class="footer-links">
+                        <a href="/privacy">Политика конфиденциальности</a>
+                    </div>
                     <p>&copy; 2025 ООО "Восток-Аудит". Все права защищены.</p>
                 </div>
             </div>
@@ -315,8 +339,29 @@
     </footer>
 
     
-    <script src="/js/main.min.44fb55b25581ec9f69f33a716b6dc1ed845585cb0086772fb71824250a75eb35.js" defer></script>
+    <script src="/js/main.min.13e24a77344cab86eb39c1d1f27032f01feee3a6616bb2fb90461913ce563b82.js" defer></script>
     
     <script src="/js/header-scroll.min.6f3abe05cf77e58112c8ed9964ddc64397baa001d437b4e6c960e49f5a441806.js" defer></script>
+    
+    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_API_ключ&lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            ymaps.ready(function() {
+                var myMap = new ymaps.Map('yandex-map', {
+                    center: [48.477153, 135.068872], 
+                    zoom: 17
+                });
+                
+                var myPlacemark = new ymaps.Placemark([48.477153, 135.068872], {
+                    hintContent: 'ООО "Восток-Аудит"',
+                    balloonContent: 'г. Хабаровск, ул. Волочаевская, 153, оф. 2-А'
+                });
+                
+                myMap.geoObjects.add(myPlacemark);
+                myMap.behaviors.disable('scrollZoom');
+            });
+        });
+    </script>
 </body>
 </html> 
