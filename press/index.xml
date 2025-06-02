@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>О нас в прессе on Восток-Аудит</title>
-    <link>http://localhost:1313/quickstart/press/</link>
+    <link>/VA27/press/</link>
     <description>Recent content in О нас в прессе on Восток-Аудит</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
-    <atom:link href="http://localhost:1313/quickstart/press/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/VA27/press/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
-    <loc>http://localhost:1313/quickstart/contact/</loc>
+    <loc>/VA27/contact/</loc>
     
     <lastmod>2023-05-29T13:44:15+10:00</lastmod>
     
@@ -21,7 +21,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/contacts/</loc>
+    <loc>/VA27/contacts/</loc>
     
     <lastmod>2023-05-29T13:44:15+10:00</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/reviews/</loc>
+    <loc>/VA27/reviews/</loc>
     
     <lastmod>2023-05-29T13:44:15+10:00</lastmod>
     
@@ -55,7 +55,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/</loc>
+    <loc>/VA27/</loc>
     
     <lastmod>2023-05-29T13:44:14+10:00</lastmod>
     
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/categories/</loc>
+    <loc>/VA27/categories/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -87,7 +87,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/tags/</loc>
+    <loc>/VA27/tags/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -102,7 +102,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/history/</loc>
+    <loc>/VA27/about/history/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -117,7 +117,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/</loc>
+    <loc>/VA27/about/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -132,7 +132,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/press/</loc>
+    <loc>/VA27/press/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -147,7 +147,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/privacy/</loc>
+    <loc>/VA27/privacy/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -162,7 +162,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/</loc>
+    <loc>/VA27/about/disclosure/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -177,7 +177,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/2020/</loc>
+    <loc>/VA27/about/disclosure/2020/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -192,7 +192,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/2021/</loc>
+    <loc>/VA27/about/disclosure/2021/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/2022/</loc>
+    <loc>/VA27/about/disclosure/2022/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -222,7 +222,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/2023/</loc>
+    <loc>/VA27/about/disclosure/2023/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -237,7 +237,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/about/disclosure/2024/</loc>
+    <loc>/VA27/about/disclosure/2024/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -252,7 +252,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/quickstart/services/</loc>
+    <loc>/VA27/services/</loc>
     
     
     <changefreq>monthly</changefreq>
