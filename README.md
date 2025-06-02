@@ -1,7 +1,7 @@
 # 🏢 Восток-Аудит | Профессиональные аудиторские услуги
 
 <div align="center">
-  <img src="static/images/logo_red.svg" alt="Восток-Аудит Логотип" width="300px" />
+  <img src="images/logo_red.svg" alt="Восток-Аудит Логотип" width="300px" />
   <p><em>30 лет на рынке аудиторских услуг</em></p>
   
   [![Made with Hugo](https://img.shields.io/badge/Made%20with-Hugo-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
