@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/reviews/</loc>
+    <loc>http://localhost:1313/VA27/reviews/</loc>
     
     <lastmod>2025-06-04T13:55:12+10:00</lastmod>
     
@@ -21,7 +21,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/contact/</loc>
+    <loc>http://localhost:1313/VA27/contact/</loc>
     
     <lastmod>2023-05-29T13:44:15+10:00</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/contacts/</loc>
+    <loc>http://localhost:1313/VA27/contacts/</loc>
     
     <lastmod>2023-05-29T13:44:15+10:00</lastmod>
     
@@ -55,7 +55,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/</loc>
+    <loc>http://localhost:1313/VA27/</loc>
     
     <lastmod>2023-05-29T13:44:14+10:00</lastmod>
     
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/categories/</loc>
+    <loc>http://localhost:1313/VA27/categories/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -87,7 +87,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/tags/</loc>
+    <loc>http://localhost:1313/VA27/tags/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -102,7 +102,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/services/audit/</loc>
+    <loc>http://localhost:1313/VA27/services/audit/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -117,7 +117,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/history/</loc>
+    <loc>http://localhost:1313/VA27/history/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -132,7 +132,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/</loc>
+    <loc>http://localhost:1313/VA27/about/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -147,7 +147,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/press/</loc>
+    <loc>http://localhost:1313/VA27/press/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -162,7 +162,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/privacy/</loc>
+    <loc>http://localhost:1313/VA27/privacy/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -177,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -192,7 +192,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/2020/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/2020/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -207,7 +207,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/2021/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/2021/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -222,7 +222,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/2022/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/2022/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -237,7 +237,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/2023/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/2023/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -252,7 +252,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/about/disclosure/2024/</loc>
+    <loc>http://localhost:1313/VA27/about/disclosure/2024/</loc>
     
     
     <changefreq>monthly</changefreq>
@@ -267,7 +267,7 @@
   </url>
   
   <url>
-    <loc>https://foreverwinternight.github.io/VA27/services/</loc>
+    <loc>http://localhost:1313/VA27/services/</loc>
     
     
     <changefreq>monthly</changefreq>
