@@ -53,6 +53,7 @@ main {
     min-height: calc(100vh - 60px - 400px); /* Примерная высота для основного контента */
     margin-bottom: 0;
     padding-bottom: 0;
+    background-color: var(--bg-color);
 }
 
 .container {
@@ -481,8 +482,8 @@ main {
 
 /* Advantages */
 .advantages {
-    padding: 4rem 0;
-    background: var(--light-gray);
+    padding: 4rem 0 6rem;
+    background: var(--bg-color);
     display: flex;
     align-items: center;
     min-height: 500px;
@@ -951,7 +952,7 @@ main {
 
 .service-content h2 {
     color: var(--primary-color);
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
     font-weight: 500;
     position: relative;
     display: inline-block;
@@ -1252,7 +1253,7 @@ main {
 
 /* Press Page Styles */
 .press-section {
-    padding: 2rem 0;
+    padding: 2rem 0 5rem;
     background: var(--light-gray);
 }
 
@@ -1361,18 +1362,18 @@ main {
     color: var(--secondary-color);
 }
 
-/* Modal Styles */
+/* Modal Styles для отзывов */
 .modal {
     display: none;
     position: fixed;
-    z-index: 1100;
-    padding: 20px;
+    z-index: 2000;
+    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--modal-bg);
     overflow: auto;
+    background-color: var(--modal-bg);
     backdrop-filter: blur(5px);
 }
 
@@ -1382,76 +1383,51 @@ main {
     max-width: 90%;
     max-height: 90vh;
     object-fit: contain;
-    box-shadow: var(--card-shadow);
-    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
 }
 
 .modal-close {
-    position: fixed;
-    right: 35px;
+    position: absolute;
     top: 15px;
+    right: 35px;
     color: var(--modal-text);
     font-size: 40px;
     font-weight: bold;
+    transition: 0.3s;
+    z-index: 2001;
     cursor: pointer;
-    z-index: 1101;
-    opacity: 0.8;
-    transition: all 0.3s ease;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: rgba(0,0,0,0.3);
 }
 
 .modal-close:hover,
 .modal-close:focus {
     color: var(--secondary-color);
-    opacity: 1;
-    transform: rotate(90deg);
+    transform: scale(1.2);
+    text-decoration: none;
 }
 
-/* Animation */
-.modal-content {
-    animation: zoom 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+.zoomable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.zoomable:hover {
+    transform: scale(1.02);
 }
 
 @keyframes zoom {
-    from {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+    from {transform:scale(0)}
+    to {transform:scale(1)}
 }
 
 @media (max-width: 768px) {
-    .press-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-        margin: 0 1rem 2rem;
+    .modal-content {
+        max-width: 95%;
     }
-
-    .press-image {
-        padding-top: 66.67%; /* 3:2 Aspect Ratio for mobile */
-    }
-
-    .press-content {
-        padding: 1.5rem;
-    }
-
-    .press-card h2 {
-        font-size: 1.2rem;
-    }
-
+    
     .modal-close {
-        right: 15px;
-        top: 15px;
-        font-size: 35px;
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
     }
 }
 
@@ -1463,7 +1439,7 @@ main {
     text-align: center;
     box-shadow: var(--card-shadow);
     max-width: 900px;
-    margin: 0 auto;
+    margin: 4rem auto 2rem;
 }
 
 .press-contact h2 {
