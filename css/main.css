@@ -287,7 +287,7 @@ main {
     transform: translateY(-3px);
 }
 
-.feature-item i {
+.hero-features .feature-item i {
     color: #2ecc71;
     font-size: 1.2rem;
 }
